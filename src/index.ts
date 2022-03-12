@@ -17,6 +17,12 @@ class Html {
   constructor(raw: string) {
     this.raw = raw;
     this.document = new Document();
+    this.document.createElement("html");
+    let root = new HTMLElement();
+    root.innerHTML = "<html><body><div>hello</div></body></html";
+    this.document.appendChild(root);
+    debugger;
+    this.document.textContent;
   }
 }
 
