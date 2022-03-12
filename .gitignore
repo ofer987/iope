@@ -1,4 +1,6 @@
-dist
+html
+index.js
+index.js.*
 
 # Logs
 logs
